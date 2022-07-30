@@ -82,6 +82,3 @@ def create_news_dim():
 
     conn.execute(news_dim)
     conn.close()
-
-
-

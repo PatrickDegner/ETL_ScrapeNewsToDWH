@@ -2,6 +2,7 @@ import sqlite3
 
 conn = sqlite3.connect('news.db')
 
+
 # create news fact (Core DWH)
 def create_news_fact():
     news_fact = (
