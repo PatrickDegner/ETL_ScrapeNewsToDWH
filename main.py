@@ -25,6 +25,7 @@ result = conn.execute(
     'INNER JOIN date_dim ON news_fact."Datum_ID" = date_dim."Datum"'
     'INNER JOIN news_dim ON news_fact."ID" = news_dim."News_FK"'
     'ORDER BY date_dim."Datum", news_fact."Zeit"')
+
 conn.commit()
 
 for i in (result.fetchall()):
