@@ -17,7 +17,10 @@ load()
 
 # Result
 result = conn.execute(
-    'SELECT date_dim."Datum", news_fact."Zeit", news_dim.Titel '
+    'SELECT date_dim."Datum", '
+    'date_dim."Wochentag", '
+    'news_fact."Zeit", '
+    'news_dim.Titel '
     'FROM news_fact '
     'INNER JOIN date_dim ON news_fact."Datum_ID" = date_dim."Datum"'
     'INNER JOIN news_dim ON news_fact."ID" = news_dim."News_FK"'
