@@ -11,6 +11,7 @@ create_date_dim()
 create_news_dim()
 create_news_fact()
 
+
 # ETL
 transform()
 load()
