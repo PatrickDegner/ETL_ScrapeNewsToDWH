@@ -1,8 +1,11 @@
+import logging
 import re
 import sqlite3
 from datetime import date
 
 from ETL.Extract import extract
+
+logger = logging.getLogger(__name__)
 
 
 # Transform output and insert/append into staging DWH

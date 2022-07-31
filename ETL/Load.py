@@ -1,6 +1,9 @@
+import logging
 import sqlite3
 
 conn = sqlite3.connect('news.db')
+
+logger = logging.getLogger(__name__)
 
 
 # Get counter for loop from count in staging DWH

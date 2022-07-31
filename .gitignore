@@ -1,2 +1,3 @@
 .idea/
 /news.db
+/Logs/etl.log
