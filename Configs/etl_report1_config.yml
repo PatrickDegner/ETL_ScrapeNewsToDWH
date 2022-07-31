@@ -3,7 +3,7 @@ logging:
   version: 1
   formatters:
     ETL:
-      format: "ETL - %(asctime)s - %(levelname)s - %(message)s"
+      format: "ETL - %(name)s - %(asctime)s - %(levelname)s - %(message)s"
   handlers:
     console:
       class: logging.StreamHandler

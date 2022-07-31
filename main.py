@@ -49,6 +49,7 @@ def main():
         print(i)
 
     conn.close()
+
     logger.info("Finished the ETL run...")
 
 
