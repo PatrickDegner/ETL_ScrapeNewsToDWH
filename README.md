@@ -21,5 +21,7 @@ Loaded into the Core DWH fact<br>
 Also into its News_dimension<br>
 ![image](https://user-images.githubusercontent.com/108484798/182218524-c3f46712-9e32-414b-aadc-daf88000a600.png) <br>
 As well the Date_dimension is created<br>
-![image](https://user-images.githubusercontent.com/108484798/182218919-2930a20f-7ec9-4836-9fd1-87127ad2e5a9.png)
+![image](https://user-images.githubusercontent.com/108484798/182218919-2930a20f-7ec9-4836-9fd1-87127ad2e5a9.png) <br>
 
+<br>
+News are now ready for Analytics 
