@@ -5,17 +5,17 @@ logging:
     ETL:
       format: "ETL - %(name)s - %(asctime)s - %(levelname)s - %(message)s"
   handlers:
-    console:
-      class: logging.StreamHandler
-      formatter: ETL
-      level: DEBUG
+#    console:
+#      class: logging.StreamHandler
+#      formatter: ETL
+#      level: DEBUG
     file_handler:
       class: logging.FileHandler
-      level: DEBUG
+      level: INFO
       formatter: ETL
       filename: Logs/etl.log
       encoding: utf8
       mode: a
   root:
-    level: DEBUG
-    handlers: [ console, file_handler ]
+    level: INFO
+    handlers: [ file_handler ]

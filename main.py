@@ -36,7 +36,7 @@ def main():
     # Result
     result = conn.execute(
         'SELECT date_dim."Datum", '
-        'date_dim."Wochentag", '
+        'date_dim."WochentagKurz", '
         'news_fact."Zeit", '
         'news_dim.Titel '
         'FROM news_fact '
